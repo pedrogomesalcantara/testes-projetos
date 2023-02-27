@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+:root {
+  --dark-Violet: hsl(256, 26%, 20%);
+  --grayish-Blue: hsl(216, 30%, 68%);
+  --very-Dark-Violet: hsl(270, 9%, 17%);
+  --dark-Grayish-Violet: hsl(273, 4%, 51%);
+  --very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
