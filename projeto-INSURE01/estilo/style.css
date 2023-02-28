@@ -9,7 +9,34 @@
 }
 
 * {
+  font-size: 1em;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+body, html {
+  margin: auto;
+  width: 100vh;
+  height: 100vh;
+}
+
+header {
+  
+  background-color: antiquewhite;
+  width: 100%;
+}
+
+#nav-header{
+  text-align: center;
+}
+
+#nav-header li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#nav-header span {
+  cursor: pointer;
+}
+
