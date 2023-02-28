@@ -17,26 +17,43 @@
 
 body, html {
   margin: auto;
-  width: 100vh;
+  width: 92vh;
   height: 100vh;
 }
 
 header {
-  
-  background-color: antiquewhite;
+  padding: 20px 10px;
   width: 100%;
 }
 
+header h1 {
+  font-size: 1.7em;
+  float: left;
+  padding: 10px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
+}
+
 #nav-header{
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  float: right;
   text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
 }
 
 #nav-header li {
-  text-decoration: none;
   list-style-type: none;
+  background-color: rgb(138, 95, 95);
+  padding: 30px 120px;
+}
+
+#lista a {
+  color: white;
+  text-decoration: none;
 }
 
 #nav-header span {
-  cursor: pointer;
+  cursor: pointer; 
 }
 
