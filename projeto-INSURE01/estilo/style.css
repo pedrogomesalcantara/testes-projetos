@@ -17,26 +17,25 @@
 
 body, html {
   margin: auto;
-  width: 50vh;
+  width: 90%;
   height: 100vh;
 }
 
 header {
-  padding: 20px 20px;
+  padding-top: 25px;
   width: 100%
 }
 
 header h1 {
-  
   font-size: 1.7em;
   float: left;
-  padding: 10px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
+  
 }
 
 #nav-header{
-  margin-bottom: 10px;
-  padding: 5px;
+  margin-bottom: 20px;
+  padding: 4px 4px;
   border: 2px solid black;
   float: right;
   text-align: center;
@@ -46,12 +45,17 @@ header h1 {
 #nav-header li {
   list-style-type: none;
   background-color: rgb(138, 95, 95);
-  padding: 20% 40px;
+  padding: 25px 20px;
 }
 
 #lista a {
   color: white;
   text-decoration: none;
+  background-color: rgb(99, 68, 68);
+  padding: 15px 25px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+  font-weight: bolder;
   
 }
 
@@ -72,22 +76,25 @@ header h1 {
  }
 
 .paragraph-content {
+  text-align: center;
   width: 100%;
-  height: 60vh;
+  height: 120vh;
   background-color: var(--dark-Violet);
   margin-top: -5px;
-  padding-top: 80px;
+  padding-top: 60px;
 
 }
 
 .paragraph-content h2 {
-  
+  text-align: center;
   font-size: 3em;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .paragraph-content p {
   font-size: 1.3em;
+  width: 80%;
+  margin-left:10%;
 }
 
 .paragraph-content button {
@@ -103,11 +110,13 @@ header h1 {
   font-size: 1.3em;
 }
 
+/* PARAGRAPH SECTION ----------*/
 
 .icons-section {
+  width: 100%;
   text-align: center;
   margin-top: 50%;
-  padding: 20px;
+  
 }
 
 .icons-section h2 {
@@ -133,4 +142,52 @@ header h1 {
 .icons-select p {
   color: var(--dark-Grayish-Violet)
 
+}
+
+/*ICONS SECTION ------------*/
+
+#find-section {
+  background-color: var(--dark-Violet);
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  color: white;
+}
+
+#find-section h2 {
+  font-size:2em;
+  padding-top: 75px;
+}
+
+#button-main-content {
+background-color: transparent;
+margin-top: 40px;
+padding: 15px;
+border-radius: 5px;
+border: 2px solid white;
+}
+
+#button-main-content a {
+  color: white;
+  text-decoration: none;
+}
+
+
+footer {
+  background-color: var(--dark-Grayish-Violet);
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 30vh
+}
+
+footer h1 {
+  width: 100%;
+  font-size: 2em;
+}
+
+.footer-icons {
+  width: 40px;
+  height: 30px;
+  padding: 30px;
 }
