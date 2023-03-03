@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto INSURE</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="/estilo/media-query.css" media="screen">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
-<body>
+<body onesize="mudouTamanho">
     <header>
         <h1 id="title-header">INSURE</h1>
 
         <nav id="nav-header">
 
-            <span class="material-icons orange600" onclick="clickMenu()">menu</span>
+            <span id="burguer" class="material-icons orange600" onclick="clickMenu()">menu</span>
                 
-                </span>
+               
 
             <ul id="lista">
-                <li><a href="#">HOW WE WORK</a></li>
+                <li id="how-list-header"><a href="#">HOW WE WORK</a></li>
                 <li><a href="#">BLOG</a></li>
                 <li><a href="#">ACCOUNT</a></li>
-                <li><a href="#">VIEW PLANS</a></li>
+                <li id="view-list-header"><a href="#">VIEW PLANS</a></li>
             </ul>
-
+        
         </nav>
     </header>
 
@@ -46,10 +47,10 @@
         </section>
 
                                         <!------FIRST SECTION------------------->
-                                        <hr>
+                                                      
         <section class="icons-section">
 
-            
+            <hr id="hr">    
 
             <h2>We're different</h2>
 
@@ -91,17 +92,18 @@
         <div class="footer-title">
             <h1>INSURE</h1>
             <div id="footer-icons">
+
                 <li><a href="#"><img src="images/icon-facebook.svg" alt="logo facebook"></a></li>
 
                 <li><a href="#"><img src="images/icon-twitter.svg" alt="logo twitter"></a></li>
 
                 <li><a href="#"><img src="images/icon-pinterest.svg" alt="logo pinterest"></a></li>
 
-                <li><ad href="#"><img src="images/icon-instagram.svg" alt="logo instagram"></ad></li>
+                <li><a href="#"><img src="images/icon-instagram.svg" alt="logo pinterest"></a></li>
 
             </div>
         </div>
-
+        <hr>
         <div id="paragraph-footer">
             <div class="content-footer">
                 <h4>OUR COMPANY</h4>
@@ -125,6 +127,14 @@
                 <p>SUPPORT</p>
                 <p>LIVE CHAT</p>
             </div>
+
+            <div class="content-footer">
+                <h4>OTHERS</h4>
+                <p>CAREERS</p>
+                <p>PRESS</p>
+                <p>LICENSES</p>
+            </div>
+
         </div>
     </footer>
 
@@ -137,6 +147,17 @@
                 lista.style.display = 'block'
             }
         }
+
+        
+        function mudouTamanho() {
+        if(window.innerWidth >= 760) {
+            lista.style.display = 'block'
+        }   else {
+            lista.style.display = 'none'
+        }
+       }
     </script>
+
+    
 </body>
 </html>
